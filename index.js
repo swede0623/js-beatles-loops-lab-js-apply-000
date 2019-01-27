@@ -40,11 +40,13 @@ function iLoveTheBeatles(number)
   do
   {
     
-  array[number - number] = "I love the Beatles!"  
+  array[number] = "I love the Beatles!"  
   number++
     
   }
   while(number < 15 );
+  
+  return array
   
 }
 
